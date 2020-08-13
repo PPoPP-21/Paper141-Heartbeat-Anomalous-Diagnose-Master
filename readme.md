@@ -9,27 +9,22 @@ With the following directory structure, this project creates a folder for each B
 <pre>
 Heartbeat_Anomalous_Diagnose
 │
-├── EPCC-array
+├── NPB_cg
 │   ├── training
 │   │   ├── Normal_parameters_training.ipynb
 │   │   └── Dataset
 │   └── testing
-│       ├── EPCC_array_Test.ipynb
+│       ├── NPB_cg_Test.ipynb
 │       └── Dataset 
-├── jacobi
-│   ├── training
-│   └── testing
-├── NPB_sp
-│   ├── training
-│   └── testing
 ├── NPB-bt
-│   ├── training
 │   └── testing
 ├── NPB-cg
-│   ├── training
 │   └── testing
 ├── NPB-lu
-│   ├── training
+│   └── testing
+├── EPCC-array
+│   └── testing
+├── jacobi
 │   └── testing
 └── readme.md
 </pre>
@@ -130,10 +125,10 @@ Same as training, firstly, enter the path ```./NPB-cg/testing``` through the ```
 
 Secondly, check whether the training data ```cg_std_abs.xlsx```,```cg_std_normal.xlsx and``` and ```cg_std_shut.xlsx``` is in the current path, and enter the jupyter file ```NPB_cg_Test.ipynb```.
 
-After that, the parameters after model training are replaced.
+After that, replace the parameter results obtained in training with them as shown in the parameters in the box in the figure below. Note that in order to ensure the credibility of the program, some abnormal parameters will be fine-tuned.
 
 ![](./img/3.png)
 
 Finally, the program obtains the prediction results of each thread of NPB-cg.
 
-![](./img/5.png)
+![](./img/4.png)
