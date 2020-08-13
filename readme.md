@@ -1,4 +1,4 @@
-## Heartbeat_Anomalous_Diagnose
+## Heartbeat_Anomalous_Diagnosis
 
 #### Project directory structure
 
@@ -7,7 +7,7 @@ The purpose of this project is to analyze the heart rate sequence of each thread
 With the following directory structure, this project creates a folder for each Benchmark for better project management. In this folder, there are two parts, training and testing, which are model training and model prediction modules.
 
 <pre>
-Heartbeat_Anomalous_Diagnose
+Heartbeat_Anomalous_Diagnosis
 │
 ├── NPB_cg
 │   ├── training
