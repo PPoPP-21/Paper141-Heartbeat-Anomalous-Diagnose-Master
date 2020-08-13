@@ -38,8 +38,8 @@ Heartbeat_Anomaly_Diagnosis
 
 | Attributes       | value        |
 | ---------------- | ------------ |
-| Operating system | ubuntu 16.04 |
-|Processor|intel(R) Core(TM) i5-4210H CPU @2.90GHz|
+| Operating system | Ubuntu 16.04 |
+|Processor|Standard S2.LARGE8 v4 CPU|
 |RAM|8G|
 
 **Note**: In order to control the influencing variables, for different classification tasks, only start the ring heartbeat program and insert the corresponding abnormal program during the experiment, and do not start other additional programs (such as browsers, software) to avoid competition for system resources due to other programs. Affect the real detection process.
