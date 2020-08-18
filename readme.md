@@ -90,7 +90,7 @@ jupyter notebook
 
 For example, for the benchmark NPB_sp,  the file name "\*_lab_abnormal.xlsx" with the wildcard "*" denotes the file name "sp_lab_abnormal.xlsx". 
 
-File attributes**
+**File attributes**
 
 | Attributes | Description                                         |
 | ---------- | --------------------------------------------------- |
