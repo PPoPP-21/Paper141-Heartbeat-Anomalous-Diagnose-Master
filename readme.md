@@ -43,7 +43,7 @@ Heartbeat_Anomaly_Diagnosis
 |Processor|Standard S2.LARGE8 v4 CPU|
 |RAM|8G|
 
-**Note**:  To control the primary parameters, for different classification tasks, only make the corresponding exception programs with the heartbeat APIs get started. During the experiment, you should not start other additional programs e.g., browsers and application software to avoid competition for system resources. 
+**Note**:  To control the primary parameters, for different classification tasks, only make the corresponding exception programs with the heartbeat APIs get started. During the experiment, you should not start other additional programs *e.g*., browsers and application software to avoid competition for system resources. 
 
 **Preconditions**
 
