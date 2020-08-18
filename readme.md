@@ -126,7 +126,7 @@ The same as training, firstly, enter the path ```./NPB-cg/testing``` through the
 
 Then, check whether the training data ```cg_std_abs.xlsx```,```cg_std_normal.xlsx and``` and ```cg_std_shut.xlsx``` is in the current path, and enter the jupyter file ```NPB_cg_Test.ipynb```.
 
-After that, replace the parameters obtained in the training process as shown in the parameters captured by the box of the figure below. Note that in order to ensure the accuracy and stability of the program, some abnormal parameters will be fine-tuned furthermore.
+After that, the parameters in the original program are replaced by those obtained in the training process as shown in the box of the figure below. Note that to ensure the accuracy and stability of the program, some abnormal parameters will be fine-tuned furthermore.
 
 ![](./img/3.png)
 
