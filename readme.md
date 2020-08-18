@@ -37,7 +37,7 @@ Heartbeat_Anomaly_Diagnosis
 
 **System Environment**
 
-| Attributes       | value        |
+| Attributes       | Value        |
 | ---------------- | ------------ |
 | Operating system | Ubuntu 16.04 |
 |Processor|Standard S2.LARGE8 v4 CPU|
