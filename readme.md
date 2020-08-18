@@ -73,7 +73,7 @@ cd ./path
 jupyter notebook
 ```
 
-* Click on the .ipynb file and enter to view and execute the program in real time with "Ctrl+Enter"
+* Click on the .ipynb file and execute the program using "Ctrl+Enter". 
 
 
 
@@ -81,12 +81,12 @@ jupyter notebook
 
 **Basic information**
 
-| File name                        | Description                                  |
-| -------------------------------- | -------------------------------------------- |
-| sp\|lu\|cg\|bt_lab_abnormal.xlsx | Heartbeat sequence set marked as memory leak |
-| sp\|lu\|cg\|bt_lab_shutdown.xlsx | Heartbeat sequence set marked as shutdown    |
-| sp\|lu\|cg\|bt_lab_normal.xlsx   | Heartbeat sequence set marked as normal      |
-| sp\|lu\|cg\|bt_normal.xlsx       | Heartbeat sequence set for training          |
+| File name                             | Description                                  |
+| ------------------------------------- | -------------------------------------------- |
+| sp\|lu\|cg\|bt\|*\|_lab_abnormal.xlsx | Heartbeat sequence set marked as memory leak |
+| sp\|lu\|cg\|bt\|*\|_lab_shutdown.xlsx      | Heartbeat sequence set marked as shutdown    |
+| sp\|lu\|cg\|bt\|*\|_lab_normal.xlsx        | Heartbeat sequence set marked as normal      |
+| sp\|lu\|cg\|bt\|*\|_normal.xlsx            | Heartbeat sequence set for training          |
 
 **File attributes**
 
