@@ -81,14 +81,16 @@ jupyter notebook
 
 **Basic information**
 
-| File name                           | Description                                  |
-| ----------------------------------- | -------------------------------------------- |
-| sp\|lu\|cg\|bt\|*_lab_abnormal.xlsx | Heartbeat sequence set marked as memory leak |
-| sp\|lu\|cg\|bt\|*_lab_shutdown.xlsx | Heartbeat sequence set marked as shutdown    |
-| sp\|lu\|cg\|bt\|*_lab_normal.xlsx   | Heartbeat sequence set marked as normal      |
-| sp\|lu\|cg\|bt\|*_normal.xlsx       | Heartbeat sequence set for training          |
+| File name           | Description                                  |
+| ------------------- | -------------------------------------------- |
+| *_lab_abnormal.xlsx | Heartbeat sequence set marked as memory leak |
+| *_lab_shutdown.xlsx | Heartbeat sequence set marked as shutdown    |
+| *_lab_normal.xlsx   | Heartbeat sequence set marked as normal      |
+| *_normal.xlsx       | Heartbeat sequence set for training          |
 
-**File attributes**
+For example, for the benchmark NPB_sp,  the file name "\*_lab_abnormal.xlsx" with the wildcard "*" denotes the file name "sp_lab_abnormal.xlsx". 
+
+File attributes**
 
 | Attributes | Description                                         |
 | ---------- | --------------------------------------------------- |
